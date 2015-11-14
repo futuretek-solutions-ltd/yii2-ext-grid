@@ -1,8 +1,8 @@
- <?php
- /**
-  * @author    Petr Leo Compel <petr.compel@futuretek.cz>
-  * @version   1.0.0
-  */
+<?php
+/**
+ * @author    Petr Leo Compel <petr.compel@futuretek.cz>
+ * @version   1.0.0
+ */
 
 namespace futuretek\grid;
 
