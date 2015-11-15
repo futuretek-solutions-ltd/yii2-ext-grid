@@ -1,25 +1,41 @@
 {
     "name": "futuretek/yii2-grid",
     "description": "Custom Futuretek Grid",
-    "type": "yii2-extension",
     "keywords": ["yii2","extension","grid"],
-    "license": "Apache-2.0",
+    "type": "yii2-extension",
+    "license": "proprietary",
+    "homepage": "http://www.futuretek.cz/",
     "authors": [
         {
             "name": "Petr Leo Compel",
             "email": "petr.compel@futuretek.cz"
         }
     ],
+    "support": {
+        "issues": "https://jira.futuretek.cz/browse/YII",
+        "wiki": "https://doc.futuretek.cz/display/YII",
+        "source": "https://git.futuretek.cz/projects/YII"
+    },
     "require": {
+        "php": ">=5.4.0",
         "yiisoft/yii2": "*",
         "kartik-v/yii2-grid": "*"
     },
+    "repositories": [
+        {
+            "url": "http://composer.futuretek.cz",
+            "type": "composer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "futuretek\\grid\\": ""
         }
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
         "yii-config": {
             "modules": {
                 "gridview": {
