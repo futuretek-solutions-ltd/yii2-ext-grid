@@ -18,16 +18,21 @@ class GridView extends \kartik\grid\GridView
 {
     /** @var string|array Sort action */
     public $sortableAction = ['sort'];
+    public $sortable = false;
 
     public function init()
     {
         parent::init();
-        $this->sortableAction = Url::to($this->sortableAction);
+        if ($this->sortable) {
+            $this->sortableAction = Url::to($this->sortableAction);
+        }
     }
 
     public function run()
     {
-        $this->registerWidget();
+        if ($this->sortable) {
+            $this->registerWidget();
+        }
         parent::run();
     }
 
