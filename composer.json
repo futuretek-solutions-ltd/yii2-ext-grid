@@ -19,7 +19,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "2.0.*",
-        "kartik-v/yii2-grid": "dev-master",
+        "kartik-v/yii2-grid": "~3.1",
         "himiklab/yii2-sortable-grid-view-widget" : "1.0.*"
     },
     "repositories": [
