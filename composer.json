@@ -1,7 +1,11 @@
 {
     "name": "futuretek/yii2-grid",
     "description": "Custom Futuretek Grid",
-    "keywords": ["yii2","extension","grid"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "grid"
+    ],
     "type": "yii2-extension",
     "license": "proprietary",
     "homepage": "http://www.futuretek.cz/",
@@ -14,17 +18,17 @@
     "support": {
         "issues": "https://jira.futuretek.cz/browse/YII",
         "wiki": "https://doc.futuretek.cz/display/YII",
-        "source": "https://git.futuretek.cz/projects/YII"
+        "source": "https://git.futuretek.cz/projects/YII/repos/ext-grid/browse"
     },
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "2.0.*",
+        "yiisoft/yii2": "^2.0.0",
         "kartik-v/yii2-grid": "~3.1",
-        "himiklab/yii2-sortable-grid-view-widget" : "1.0.*"
+        "himiklab/yii2-sortable-grid-view-widget": "1.0.*"
     },
     "repositories": [
         {
-            "url": "http://composer.futuretek.cz/repo/private/",
+            "url": "https://composer.futuretek.cz/repo/private/",
             "type": "composer"
         }
     ],
@@ -34,9 +38,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        },
         "yii-config": {
             "modules": {
                 "gridview": {
